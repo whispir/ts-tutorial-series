@@ -168,7 +168,7 @@ type DeepReadonly<T> = Readonly<{
 (But to be honest I would be looking at using something like Immutable.js or a linting rule to prevent property reassignment). 
 
 
-## Type Widening on strings that are on objects
+## Type Widening of strings that are on objects
 
 Let's say you have some code that looks like this: 
 
